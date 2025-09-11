@@ -33,4 +33,4 @@ The code is a simple C program that:
 
 Of course it is not a kernel module; rather, it illustrates how stack-based tag contexts could simplify reasoning about access control in OS design.
 
-This idea could be potentially integrated with Linux xattr for real file metadata.
+This idea could be potentially integrated with Linux xattr for real file metadata, and it could implement tag enforcements in Linux kernel by LSM hooks.
